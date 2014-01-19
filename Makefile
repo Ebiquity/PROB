@@ -5,7 +5,8 @@ all: slides.pdf
 %.tex: %.md
 	wiki2beamer  $< > $@
 
-SECTIONS = intro.tex causes.tex 
+SECTIONS = intro.tex causes.tex solutionsOtherFields.tex bigdatatools.tex own_work.tex
+
 
 
 clean:

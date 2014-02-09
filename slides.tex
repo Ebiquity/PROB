@@ -1,0 +1,36 @@
+\documentclass{beamer}
+\usetheme{UMBCtraining}
+\usepackage{pgfpages}
+\usepackage{listings}
+\pgfpagesuselayout{resize to}[a4paper,border shrink=5mm,landscape]
+%%\mode<handout>{\setbeamercolor{background canvas}{bg=black!5}}
+\mode<presentation>
+
+\lstset{%
+    backgroundcolor=\color{yellow!20},%
+    basicstyle=\small\ttfamily,%
+    numbers=left, numberstyle=\tiny, stepnumber=2, numbersep=5pt,%
+    keywordstyle=\color{blue}\bfseries,
+    language=Java,
+    keywordsprefix=B,
+    }%
+
+\title{PROB: Provenance and Reproducibility  of Big data.}
+\subtitle{Work in progress}
+\author{Vlad Korolev}
+\date[]{ \today}
+
+
+\begin{document}
+
+{
+\setbeamertemplate{footline}{}
+\begin{frame}
+  \titlepage
+\end{frame}
+}
+
+
+\input{intro}
+
+\end{document}

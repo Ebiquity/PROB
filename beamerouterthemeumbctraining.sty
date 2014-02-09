@@ -1,0 +1,58 @@
+\ProvidesPackage{beamerouterthemeumbctraining}[2013/04/30 v1.0 for beamer 3.26]
+\RequirePackage[absolute,overlay]{textpos}
+\RequirePackage{tikz}
+
+
+%Outer theme created by request on Fiverr.com
+
+\setbeamerfont{title}{size=\Large\bfseries}
+
+
+\mode<presentation>
+
+%the default contents of the footline
+
+
+\setbeamertemplate{footline}%
+{\leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,left]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\hspace*{5ex}Ebiquity.org
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{title in head/foot}%
+    \usebeamerfont{title in head/foot}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{5ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\setbeamertemplate{headline}
+{
+  \leavevmode%
+\vskip8pt\hbox{%
+\includegraphics[width=\paperwidth]{header.png}
+  }%
+}
+
+\setbeamertemplate{background canvas}{%
+    \ifnum\c@framenumber=1%
+    \fi%
+}
+
+
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamertemplate{title page}{%
+\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=center]
+  at ([yshift=75pt,xshift=-0pt]current page.center) (title)
+ {\parbox[t]{.9\paperwidth}{\raggedright\usebeamerfont{title}\textcolor{black}{\Huge \inserttitle}}};
+\node[anchor=center]
+  at ([yshift=17pt,xshift=-0pt]current page.center) (title)
+ {\parbox[t]{.8\paperwidth}{\raggedleft\usebeamerfont{title}\textcolor{blue}{\insertsubtitle}}};
+\node[anchor=center]
+  at ([yshift=-47pt,xshift=-100pt]current page.center) (title)
+ {\parbox[t]{.8\paperwidth}{\center\usebeamerfont{title}\textcolor{black}{Vlad Korolev \\ UMBC \\ vkorol1@umbc.edu }}};
+\end{tikzpicture}
+
+}

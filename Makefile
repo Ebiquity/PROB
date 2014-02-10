@@ -5,7 +5,7 @@ all: slides.pdf
 %.tex: %.md
 	wiki2beamer  $< > $@
 
-SECTIONS = intro.tex
+SECTIONS = intro.tex background.tex prob.tex
 
 
 

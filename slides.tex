@@ -2,9 +2,18 @@
 \usetheme{UMBCtraining}
 \usepackage{pgfpages}
 \usepackage{listings}
+\usepackage[T1]{fontenc}
+\usepackage[scaled=0.9]{beramono}
+\usepackage{microtype}
+
 \pgfpagesuselayout{resize to}[a4paper,border shrink=5mm,landscape]
 %%\mode<handout>{\setbeamercolor{background canvas}{bg=black!5}}
 \mode<presentation>
+
+
+\newcommand*\LSTfont{%
+  \Small\ttfamily\SetTracking{encoding=*}{-60}\lsstyle}
+\newcommand\Small{\fontsize{7}{7.2}\selectfont}
 
 \lstset{%
     backgroundcolor=\color{yellow!20},%
@@ -32,5 +41,7 @@
 
 
 \input{intro}
+\input{background}
+\input{prob}
 
 \end{document}

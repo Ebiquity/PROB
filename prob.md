@@ -145,7 +145,7 @@ git:commit-a2e1  a  prov:Activity ;
   prov:qualifiedAssociation [ a prov:Association ; 
      prov:agent git:user-VladKorolev ; 
      prov:hadRole "author, committer"@en ] ;
-  prov:used	git:file-word-count-pig_commit-a2e1 ;
+  prov:used	git:file-word-count-pig-commit-a2e1 ;
   prov:wasAssociatedWith git:user-VladKorolev ;
   prov:wasInformedBy git:commit-a2e1 ;
   rdfs:label	"update"@en .
@@ -153,7 +153,7 @@ git:commit-a2e1  a  prov:Activity ;
 git:file-word-count-pig prov:Entity ;
    rdfs:label  "word-count-pig"@en .
  
-git:file-word-count-pig_commit-a2e1 a prov:Entity ;
+git:file-word-count-pig-commit-a2e1 a prov:Entity ;
    prov:qualifiedAttribution	[    a prov:Attribution ; 
           prov:agent git:user-VladKorolev ; 
           a "authorship"@en ] .
@@ -174,10 +174,10 @@ prob:git-tree-23442   a  prob:git-tree ;
 
 ==== What do records look like? ====[fragile]
 
-!Executions and modules !
+!Executions \& modules !
     
 \begin{lstlisting}[basicstyle=\LSTfont]
-prob:analysis_11299    a  prob:analysis ;
+prob:analysis-11299    a  prob:analysis ;
 	prob:  module   module-2302 ;
 	n:duration  20s ;
 	n:wd   /home/user1 ;
@@ -194,28 +194,28 @@ prob:analysis_11299    a  prob:analysis ;
 
 
 \begin{lstlisting}[basicstyle=\LSTfont]
-prob:module_23111  a prob:module ;
-	prov:Entity  file-word-count-pig_commit-a2e1;  
-	prob:Dependency  prob:module_92234 .
+prob:module-23111  a prob:module ;
+	prov:Entity  file-word-count-pig-commit-a2e1;  
+	prob:Dependency  prob:module-92234 .
    \end{lstlisting}
  
 
 ==== What do records look like? ====[fragile]
 
-!Output !
+!Input \& Output !
     
 
-   \begin{lstlisting}[basicstyle=\LSTfont]
-prob:input_9322  a   prob:input ;
-     prob:parameter_1   "dataFile.tsv" ;
-     prob:parameter_2   "10" .
+\begin{lstlisting}[basicstyle=\LSTfont]
+prob:input-9322  a   prob:input ;
+     prob:parameter-1   "dataFile.tsv" ;
+     prob:parameter-2   "10" .
      
-prob:output_11234  a prob:output ;
-     prob:consoleOutput_23222 .
+prob:output-11234  a prob:output ;
+     prob:consoleOutput-23222 .
      
-prob:consoleOutput_3322 a prob:console ;
-     prob:run_222_line_1    "dog 34334343" ;
-     prob:run_222_line_2    "cat 123344" .
+prob:consoleOutput-3322 a prob:console ;
+     prob:run-222-line-1    "dog 34334343" ;
+     prob:run-222-line-2    "cat 123344" .
      
    \end{lstlisting}
 

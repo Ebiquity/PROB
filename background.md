@@ -24,7 +24,7 @@
 
 ==== Extra challenges of big data ====
 
-*<1-> It is too big for standard version control 
+*<1-> Too big for standard version control 
 *<2-> Often distribution of datasets is restricted 
-*<3-> Scripts run for a long time
+*<3-> Jobs run for a long time
 *<4-> Exploratory / ad-hoc queries hard to track

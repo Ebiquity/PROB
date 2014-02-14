@@ -8,7 +8,7 @@
 
 ==== Quote ====
 
-The sanction which the Society gives to the work, now published under its auspices, extend only to the novelty, ingenuity, or importance of the several memoirs which it contains.  Responsibility concernig the truth of facts, the soundness of reason, in the accuracy of calculations is wholly disclaimed: and must rest alone, on the knowledge, judgement, or ability of the authors who have respectfully furnished such communications.
+The sanction which the Society gives to the work, now published under its auspices, extend only to the novelty, ingenuity, or importance of the several memoirs which it contains.  Responsibility concerning the truth of facts, the soundness of reason, in the accuracy of calculations is wholly disclaimed: and must rest alone, on the knowledge, judgement, or ability of the authors who have respectfully furnished such communications.
 
 \only<2>{
 \vskip .2in

@@ -17,7 +17,7 @@
 ** Files
 ** Console
 
-==== What it does !NOT!? ====
+==== What it does !NOT! do? ====
 
 * Track data in relational databases
 * General purpose tool
@@ -26,7 +26,7 @@
 * Full reproducibility solution
 
 
-==== What does it stand on? ====
+==== What does it build on? ====
 
 * W3C PROV
 ** Semantic Web RDF
@@ -36,7 +36,7 @@
 * Hadoop
 ** PIG
 
-==== What is inspired by?  ====
+==== What is it inspired by?  ====
 
 * Continuous Integration
 * NiPype
@@ -113,7 +113,7 @@ Dump D ;
 
 ==== What are the records? ====
 
-!Modules analyses !
+!Modules and analyses !
 
 * Modules
 ** Executables

@@ -10,7 +10,7 @@
 \only<2>{<<<Images/lab_notebook1.jpg,width=12cm,height=7cm>>>}
 \only<3>{<<<Images/lab_notebook2.jpg,width=12cm,height=7cm>>>}
 
-=! Why this methods don't scale well? !=
+=! Why these methods don't scale well? !=
 
 * Diligence of the researcher
 * Get too overhelming very quick

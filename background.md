@@ -13,7 +13,7 @@
 =! Why these methods don't scale well? !=
 
 * Diligence of the researcher
-* Get too overhelming very quick
+* Get too overwhelming very quick
 * Too subjective
 
 === ===

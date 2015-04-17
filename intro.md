@@ -1,5 +1,5 @@
 
-=! Why this project exist !=
+=! Why does this project exist? !=
 
 *<2-> My primary research is in processing genomics data
 *<3-> Have to collaborate with fellow researchers

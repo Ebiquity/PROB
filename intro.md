@@ -1,7 +1,18 @@
 
+=! Why this project exist !=
+
+*<2-> My primary research is in processing genomics data
+*<3-> Have to collaborate with fellow researchers
+** within UMBC
+** outside of UMBC
+** with myself from the past
+*<4-> See issues of provenance / reproducibility all the time
+** academic settings
+** industry
+
 =! Why Provenance? !=
 
-=! Reproducibilty of computation !=
+=! Reproducibility of computation !=
 
 {\large \hskip 10em ! Why is it important? ! }
 
@@ -12,7 +23,7 @@ The sanction which the Society gives to the work, now published under its auspic
 
 \only<2>{
 \vskip .2in
-\hskip .5in {\it The Memoirs of the Literary Society of Machester, !1785! }
+\hskip .5in {\it The Memoirs of the Literary Society of Manchester, !1785! }
 }
 
 

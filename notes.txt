@@ -1,0 +1,25 @@
+
+* Most published research paper  (more than 2500 citations)
+
+* Mention Duke
+
+	-  High profile study with strong far reaching claims (Anil Poti)
+	-  SW Problem (treated header as a data point (sometimes))
+	-  They did provide data and files
+	-  MD Anderson (Kevin Coombes) peeps caught an error
+	-  Duke was actively denying the error
+	-  Shut off any data sharing
+	-  Started to run clinical trials
+	-  MD Anderson filed FOIA request to get data
+	-  Dr. Coombes sent letter to expressing his concern
+	-  Lancet denied in publication citing it was to technical
+	-  NY Times published it.
+	-  Storm ensued:
+			- Paper retractions
+			- Grants revoked
+			- Lawsuits for medical negligence (they were running clinical trials)
+			- Details in wikipedia article
+			
+			
+* Open Science Framework by Center for Open Science  (UVA)
+

@@ -240,14 +240,3 @@ prob:consoleOutput-3322 a prob:console ;
 
 =! ! The End. ! != 
 
-How to find us: \\ ~ \\
-
-{ \huge 
-http://ebiquity.org \\
-http://github.com/Ebiquity/PROB \\
-}
-
-
-
-
-

@@ -3,8 +3,8 @@
 
 *<2-> My primary research is in processing genomics data
 *<3-> Have to collaborate with fellow researchers
-** within UMBC
-** outside of UMBC
+** within institution
+** outside of institution
 ** with myself from the past
 *<4-> See issues of provenance / reproducibility all the time
 ** academic settings
